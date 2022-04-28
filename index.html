@@ -94,6 +94,8 @@
                 }
 
             }else if(past_item.me != elem.me){
+                past_item.classList.remove("active");
+                elem.classList.remove("active");
                 past_item = elem;
             }
             console.log("Прошлый див", past_item);
